@@ -1,1 +1,8 @@
-alert("Hello world!");
+// Return if the function is even
+function isEven(x) {
+	if (x % 2 === 0) {
+		return true;
+	} else {
+		return false;
+	}
+}
