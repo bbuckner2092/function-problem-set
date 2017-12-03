@@ -8,8 +8,6 @@ function isEven(x) {
 }
 
 // Return the factorial, ex (3*2*1), of argument
-// Take in a single argument (x)
-
 // the code I found online
 function factorial(x)
 {
@@ -19,9 +17,10 @@ function factorial(x)
     return num;
 }
 
-// Return kebabToSnake, "-" to "_"
-function kebabToSnake(str("-")) {
-	if (-) {
-		return "_";
-	}
+// Return kebabToSnake case
+// the code I found online
+function kebabToSnake(str) {
+    var myString = str.replace(/-/g, "_");
+    return myString;
+   
 }
