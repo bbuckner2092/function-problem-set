@@ -39,7 +39,9 @@ function factorial(num) {
 // Return kebabToSnake case
 // the code I found online
 function kebabToSnake(str) {
+	// replace all "-" with "_"
     var myString = str.replace(/-/g, "_");
+    // return str
     return myString;
    
 }
