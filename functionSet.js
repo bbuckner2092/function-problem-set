@@ -6,3 +6,22 @@ function isEven(x) {
 		return false;
 	}
 }
+
+// Return the factorial, ex (3*2*1), of argument
+// Take in a single argument (x)
+
+// the code I found online
+function factorial(x)
+{
+    var num=1;
+    for (var i = 2; i <= x; i++)
+        num = num * i;
+    return num;
+}
+
+// Return kebabToSnake, "-" to "_"
+function kebabToSnake(str("-")) {
+	if (-) {
+		return "_";
+	}
+}
